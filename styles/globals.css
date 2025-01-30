@@ -1,3 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #FFF8DC; /* Light Cream */
+  color: #222; /* Dark text for contrast */
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  transition: all 0.3s ease-in-out;
+}
+
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
